@@ -2,9 +2,9 @@
 mod macros;
 
 fn main() {
-  let input = std::fs::read_to_string("puzzles/day-02/input.txt").unwrap();
+  let input = std::fs::read_to_string("puzzles/day-03/input.txt").unwrap();
 
-  let result = day_02::part_two(&input);
+  let result = day_03::part_two(&input);
 
   println!("{result}");
 }
@@ -18,4 +18,7 @@ mod tests {
 
   #[test] fn day_02_one() { testify!(day_02, "day-02", part_one, 8890); }
   #[test] fn day_02_two() { testify!(day_02, "day-02", part_two, 10238); }
+
+  #[test] fn day_03_one() { testify!(day_03, "day-03", part_one, 7908); }
+  #[test] fn day_03_two() { testify!(day_03, "day-03", part_two, 2838); }
 }
