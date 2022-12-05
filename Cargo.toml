@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-day-01 = { path = "day-01" }
-day-02 = { path = "day-02" }
+day-01 = { path = "puzzles/day-01" }
+day-02 = { path = "puzzles/day-02" }
