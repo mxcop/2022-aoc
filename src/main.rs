@@ -2,9 +2,9 @@
 mod macros;
 
 fn main() {
-  let input = std::fs::read_to_string("puzzles/day-03/input.txt").unwrap();
+  let input = std::fs::read_to_string("puzzles/day-04/input.txt").unwrap();
 
-  let result = day_03::part_two(&input);
+  let result = day_04::part_two(&input);
 
   println!("{result}");
 }
